@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import React from 'react'
-import Typewriter from './typewriter'
 
 export default function MainHeader() {
   return (
