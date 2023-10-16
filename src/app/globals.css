@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.TopSection {
+  font-family: 'Montserrat', sans-serif;
+}
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin: 5% auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media (min-width: 601px) {
+  .Dropdown {
+    display: none;
+  }
+}
+@media (max-width: 601px) {
+  .TopSection {
+    width: 20rem;
+  }
+  .Navbar {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .HomePage {
+    flex-direction: column;
+    align-items: center;
+  }
+  .HomePicture {
+    max-width: 20rem;
+    align-items: center;
+  }
+  .TopSection h1 {
+    font-size: 3rem;
+  }
+  .TopSection {
+    width: 20rem;
+  }
+  .HomeText{
+    max-width: 18rem;
+  }
+  .HomeText h2{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  .HomeText p{
+    font-size: 0.8rem; /* 12px */
+    line-height: 1rem; /* 16px */
+  }
+  .ContactForm {
+    max-width: 20rem;
+  }
+  .ContactForm h2 {
+    font-size: 1.5rem; /* 24px */
+    line-height: 2rem; /* 32px */
+  }
+  .ContactForm p {
+    font-size: 1.rem; /* 24px */
+    line-height: 1.5rem; /* 32px */
+  }
+  .Dropdown {
+    max-width: 16rem;
+  }
+
+}
