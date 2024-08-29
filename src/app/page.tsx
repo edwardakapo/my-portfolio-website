@@ -9,7 +9,7 @@ export default function Home() {
       <div className='max-w-[26rem] HomePicture'>
         <PagePhoto desc="myphotosssss" src="/dinner_pic.jpg"/>
       </div>
-      <div className='HomeText'>
+      <div className='HomeText mt-10 md:mt-2'>
         <h2 className='font-bold text-4xl'>Hi, I'm Edward.</h2>
         <br/>
         <p className='text-sm'>I'm a Full Stack Software Developer based in Canada with a Bachelor's in Computer Science, three years of experience, and two AWS certifications. </p>
