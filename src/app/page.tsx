@@ -9,14 +9,14 @@ export default function Home() {
       <div className='max-w-[26rem] HomePicture'>
         <PagePhoto desc="myphotosssss" src="/dinner_pic.jpg"/>
       </div>
-      <div className='HomeText mt-10'>
+      <div className='HomeText'>
         <h2 className='font-bold text-4xl'>Hi, I'm Edward.</h2>
         <br/>
-        <p className='text-sm'>I'm a Backend Software Developer living in Canada with a Bachelor's degree in Computer Science and an AWS Cloud Practitioner Certification. </p>
+        <p className='text-sm'>I'm a Full Stack Software Developer based in Canada with a Bachelor's in Computer Science, three years of experience, and two AWS certifications. </p>
         <br/>
-        <p className='text-sm'>With close to two years of professional coding experience, I've sharpened my skills in languages such as Java, Javascript, and SQL while diving deep into technologies like Kubernetes, AWS, and GitLab.</p>
+        <p className='text-sm'>Specializing in scalable web applications, my expertise includes front and back-end technologies, cloud architecture, and advanced API development. I ensure robust deployment pipelines, well-tested code, and responsive, functional UI/UX.</p>
         <br/>
-        <p className='text-sm'>I also offer bespoke software solutions as a freelance developer to businesses and individuals</p>
+        <p className='text-sm'>As a freelance developer, I offer custom solutions to small businesses, allowing them to streamline operations, optimize workflows, and enhance their overall efficiency."</p>
         <br/>
         <p className='text-sm'>You can find links to my more recent projects <Link href="/Projects"><span className='text-sm font-bold inline hover:text-stone-400'>here,</span></Link>  or visit my <Link href="https://github.com/edwardakapo" target='_blank'><span className='text-sm font-bold inline hover:text-stone-400'>Github</span></Link> to get a look at all my projects</p>
         <br/>
